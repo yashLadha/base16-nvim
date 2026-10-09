@@ -1,6 +1,40 @@
 # base16-nvim
 
+Personal fork of [wincent/base16-nvim](https://github.com/wincent/base16-nvim), kept so the Neovim colorschemes can be customised independently of upstream. The schemes are generated from the [tinted-theming](https://github.com/tinted-theming/schemes) base16 and base24 scheme collections.
+
 Originally, this was a Lua port of [chriskempson/base16-vim](https://github.com/chriskempson/base16-vim) for [Neovim](https://github.com/neovim/neovim). As base16-vim now appears to be abandonware, the new upstream is considered to be [tinted-vim](https://github.com/tinted-theming/tinted-vim) (itself, a fork of base16-vim).
+
+## Installation
+
+With [lazy.nvim](https://github.com/folke/lazy.nvim):
+
+```lua
+{ "yashLadha/base16-nvim", lazy = false, priority = 1000 }
+```
+
+Then pick a scheme:
+
+```lua
+vim.cmd.colorscheme("default-dark")
+```
+
+Every file in [`colors/`](colors) is a standalone colorscheme, so there is no `setup()` to call. Scheme names are the tinted-theming slugs without a `base16-` or `base24-` prefix, for example `default-dark`, `tokyo-night-dark`, `kanagawa-dragon` or `gruvbox-dark-hard`. Use `:colorscheme <Tab>` to list them. Schemes do not set `background`, so set it yourself before loading a light scheme.
+
+To work on the fork locally, clone it into lazy.nvim's dev path and mark the spec with `dev = true`:
+
+```lua
+require("lazy").setup("plugins", { dev = { path = "~/opensource", fallback = true } })
+```
+
+```lua
+{ "yashLadha/base16-nvim", dev = true }
+```
+
+## Customising
+
+All highlight groups come from [`templates/default.mustache`](templates/default.mustache), and every file in `colors/` is generated from it. Changes that should apply to every scheme belong in the template, followed by regenerating `colors/`. A one-off tweak to a single scheme can be made directly in its `colors/<scheme>.lua`, but it is overwritten the next time the schemes are regenerated.
+
+[`templates/config.yaml`](templates/config.yaml) renders the template for both the base16 and base24 systems. base16 schemes fill the base24 slots (`base10` to `base17`) from their closest base16 colors, so every scheme exposes the same palette.
 
 ## Why?
 
