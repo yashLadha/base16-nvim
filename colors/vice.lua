@@ -13,7 +13,7 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#17191E"
+local gui00 = "#17191e"
 local gui01 = "#22262d"
 local gui02 = "#3c3f4c"
 local gui03 = "#383a47"
@@ -31,8 +31,8 @@ local gui0E = "#00f6d9"
 local gui0F = "#ff3d81"
 
 -- Base24 colors.
-local gui10 = "#17191E"
-local gui11 = "#17191E"
+local gui10 = "#17191e"
+local gui11 = "#17191e"
 local gui12 = "#ff29a8"
 local gui13 = "#f0ffaa"
 local gui14 = "#0badff"
@@ -61,12 +61,12 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 9
-local cterm13  = 11
-local cterm14  = 10
-local cterm15  = 14
-local cterm16  = 12
-local cterm17  = 13
+local cterm12  = 1
+local cterm13  = 3
+local cterm14  = 2
+local cterm15  = 6
+local cterm16  = 4
+local cterm17  = 5
 
 vim.cmd [[
   highlight clear

@@ -1,4 +1,4 @@
--- Cupcake scheme by Chris Kempson (https://github.com/chriskempson)
+-- Cupcake scheme by Chris Kempson (http://chriskempson.com)
 --
 -- Generated from this template:
 --
@@ -19,26 +19,26 @@ local gui02 = "#d8d5dd"
 local gui03 = "#bfb9c6"
 local gui04 = "#a59daf"
 local gui05 = "#8b8198"
-local gui06 = "#72677E"
+local gui06 = "#72677e"
 local gui07 = "#585062"
-local gui08 = "#D57E85"
-local gui09 = "#EBB790"
-local gui0A = "#DCB16C"
-local gui0B = "#A3B367"
-local gui0C = "#69A9A7"
-local gui0D = "#7297B9"
-local gui0E = "#BB99B4"
-local gui0F = "#BAA58C"
+local gui08 = "#d57e85"
+local gui09 = "#ebb790"
+local gui0A = "#dcb16c"
+local gui0B = "#a3b367"
+local gui0C = "#69a9a7"
+local gui0D = "#7297b9"
+local gui0E = "#bb99b4"
+local gui0F = "#baa58c"
 
 -- Base24 colors.
 local gui10 = "#fbf1f2"
 local gui11 = "#fbf1f2"
-local gui12 = "#D57E85"
-local gui13 = "#DCB16C"
-local gui14 = "#A3B367"
-local gui15 = "#69A9A7"
-local gui16 = "#7297B9"
-local gui17 = "#BB99B4"
+local gui12 = "#d57e85"
+local gui13 = "#dcb16c"
+local gui14 = "#a3b367"
+local gui15 = "#69a9a7"
+local gui16 = "#7297b9"
+local gui17 = "#bb99b4"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -61,12 +61,12 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 9
-local cterm13  = 11
-local cterm14  = 10
-local cterm15  = 14
-local cterm16  = 12
-local cterm17  = 13
+local cterm12  = 1
+local cterm13  = 3
+local cterm14  = 2
+local cterm15  = 6
+local cterm16  = 4
+local cterm17  = 5
 
 vim.cmd [[
   highlight clear

@@ -1,4 +1,4 @@
--- boo-shnickle scheme by boo-shnickle (@boo_shnickle)
+-- Paris scheme by xscriptor (https://github.com/xscriptor)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#191914"
-local gui01 = "#3a3a2e"
-local gui02 = "#5b5b49"
-local gui03 = "#7c7c63"
-local gui04 = "#9c9c7d"
-local gui05 = "#bdbd97"
-local gui06 = "#dedeb2"
-local gui07 = "#ffffcc"
-local gui08 = "#ffbfa5"
-local gui09 = "#ffdc99"
-local gui0A = "#fff299"
-local gui0B = "#e7ff99"
-local gui0C = "#bfffc5"
-local gui0D = "#bfbfd9"
-local gui0E = "#f2bfd9"
-local gui0F = "#e5d6a6"
+local gui00 = "#1a0a30"
+local gui01 = "#291a3e"
+local gui02 = "#352649"
+local gui03 = "#c4bdff"
+local gui04 = "#9489a2"
+local gui05 = "#f7f1ff"
+local gui06 = "#f9f4ff"
+local gui07 = "#f7f1ff"
+local gui08 = "#fc618d"
+local gui09 = "#fca37a"
+local gui0A = "#fce566"
+local gui0B = "#7bd88f"
+local gui0C = "#a3f3ff"
+local gui0D = "#a3f3ff"
+local gui0E = "#c4bdff"
+local gui0F = "#ad6d60"
 
 -- Base24 colors.
-local gui10 = "#191914"
-local gui11 = "#191914"
-local gui12 = "#ffbfa5"
-local gui13 = "#fff299"
-local gui14 = "#e7ff99"
-local gui15 = "#bfffc5"
-local gui16 = "#bfbfd9"
-local gui17 = "#f2bfd9"
+local gui10 = "#18092c"
+local gui11 = "#160828"
+local gui12 = "#fc618d"
+local gui13 = "#fce566"
+local gui14 = "#7bd88f"
+local gui15 = "#a3f3ff"
+local gui16 = "#a3f3ff"
+local gui17 = "#c4bdff"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -72,7 +72,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "boo-shnickle-dark"
+vim.g.colors_name = "paris"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

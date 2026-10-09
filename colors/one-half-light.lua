@@ -13,7 +13,7 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#2A2B32"
+local gui00 = "#2a2b32"
 local gui01 = "#373942"
 local gui02 = "#4f525d"
 local gui03 = "#797c84"

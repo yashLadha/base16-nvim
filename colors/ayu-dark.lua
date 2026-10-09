@@ -32,7 +32,7 @@ local gui0F = "#e6b450"
 
 -- Base24 colors.
 local gui10 = "#0a0d13"
-local gui11 = "#06070A"
+local gui11 = "#06070a"
 local gui12 = "#f26d78"
 local gui13 = "#e6b673"
 local gui14 = "#7fd962"

@@ -26,6 +26,22 @@ All highlight groups come from [`templates/default.mustache`](templates/default.
 
 [`templates/config.yaml`](templates/config.yaml) renders the template for both the base16 and base24 systems. base16 schemes fill the base24 slots (`base10` to `base17`) from their closest base16 colors, so every scheme exposes the same palette.
 
+### Regenerating
+
+Install [tinted-builder-rust](https://github.com/tinted-theming/tinted-builder-rust):
+
+```sh
+cargo install --locked tinted-builder-rust
+```
+
+Then run:
+
+```sh
+bin/update-themes
+```
+
+The script pulls the latest [tinted-theming schemes](https://github.com/tinted-theming/schemes), renders the template, and replaces `colors/` with the result. When a scheme exists in both systems under the same name, the base24 version is kept. Schemes removed upstream are removed from `colors/` as well.
+
 ## Why?
 
 These schemes are implemented in pure Lua, using the lowest-level API for creating highlight groups ([`vim.api.nvim_set_hl`](https://neovim.io/doc/user/api.html#nvim_set_hl())), so as to have the minimum possible impact on startup time.

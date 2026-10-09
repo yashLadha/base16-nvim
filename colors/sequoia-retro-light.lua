@@ -1,4 +1,4 @@
--- ayu scheme by FredHappyface (https://github.com/fredHappyface)
+-- Sequoia Retro Light scheme by Micheal Andreuzza (https://michaelandreuzza.com/)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#0f1419"
-local gui01 = "#000000"
-local gui02 = "#323232"
-local gui03 = "#656565"
-local gui04 = "#989898"
-local gui05 = "#cbcbcb"
-local gui06 = "#ffffff"
-local gui07 = "#ffffff"
-local gui08 = "#ff3333"
-local gui09 = "#e7c547"
-local gui0A = "#68d5ff"
-local gui0B = "#b8cc52"
-local gui0C = "#95e6cb"
-local gui0D = "#36a3d9"
-local gui0E = "#f07178"
-local gui0F = "#7f1919"
+local gui00 = "#edeef2"
+local gui01 = "#e2e3e8"
+local gui02 = "#e2e3e8"
+local gui03 = "#565760"
+local gui04 = "#42434e"
+local gui05 = "#282930"
+local gui06 = "#282930"
+local gui07 = "#0f1014"
+local gui08 = "#5f7982"
+local gui09 = "#5f7982"
+local gui0A = "#bf5238"
+local gui0B = "#4a704e"
+local gui0C = "#8a6539"
+local gui0D = "#456a82"
+local gui0E = "#bf5238"
+local gui0F = "#4a704e"
 
 -- Base24 colors.
-local gui10 = "#212121"
-local gui11 = "#101010"
-local gui12 = "#ff6565"
-local gui13 = "#fff779"
-local gui14 = "#eafe84"
-local gui15 = "#c7fffd"
-local gui16 = "#68d5ff"
-local gui17 = "#ffa3aa"
+local gui10 = "#edeef2"
+local gui11 = "#edeef2"
+local gui12 = "#5f7982"
+local gui13 = "#bf5238"
+local gui14 = "#4a704e"
+local gui15 = "#8a6539"
+local gui16 = "#456a82"
+local gui17 = "#bf5238"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -61,18 +61,18 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 9
-local cterm13  = 11
-local cterm14  = 10
-local cterm15  = 14
-local cterm16  = 12
-local cterm17  = 13
+local cterm12  = 1
+local cterm13  = 3
+local cterm14  = 2
+local cterm15  = 6
+local cterm16  = 4
+local cterm17  = 5
 
 vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "ayu"
+vim.g.colors_name = "sequoia-retro-light"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

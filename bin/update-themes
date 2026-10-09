@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+#
+# Regenerates colors/ from templates/default.mustache using the latest
+# tinted-theming schemes. Requires tinted-builder-rust on PATH.
+#
+# Many schemes exist as both base16 and base24 under the same slug. Each
+# system is rendered into its own directory under build/, then base24 is
+# copied over base16 so the richer palette wins.
+
+set -euo pipefail
+
+root="$(cd "$(dirname "$0")/.." && pwd)"
+trap 'rm -rf "$root/build"' EXIT
+
+rm -rf "$root/build"
+tinted-builder-rust sync --quiet
+tinted-builder-rust build --quiet "$root"
+
+rm -f "$root"/colors/*.lua
+cp "$root"/build/base16/*.lua "$root/colors/"
+cp "$root"/build/base24/*.lua "$root/colors/"
+
+echo "Generated $(find "$root/colors" -name '*.lua' | wc -l | tr -d ' ') schemes in colors/"

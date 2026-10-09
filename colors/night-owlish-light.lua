@@ -14,12 +14,12 @@
 
 -- Base16 colors.
 local gui00 = "#ffffff"
-local gui01 = "#E5E6E6"
-local gui02 = "#CBCDCD"
-local gui03 = "#B1B4B4"
+local gui01 = "#e5e6e6"
+local gui02 = "#cbcdcd"
+local gui03 = "#b1b4b4"
 local gui04 = "#717575"
-local gui05 = "#585B5B"
-local gui06 = "#3F4141"
+local gui05 = "#585b5b"
+local gui06 = "#3f4141"
 local gui07 = "#011627"
 local gui08 = "#d3423e"
 local gui09 = "#daaa01"

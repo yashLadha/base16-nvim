@@ -14,31 +14,31 @@
 
 -- Base16 colors.
 local gui00 = "#282828"
-local gui01 = "#212F3D"
+local gui01 = "#212f3d"
 local gui02 = "#504945"
 local gui03 = "#928374"
-local gui04 = "#BDAE93"
-local gui05 = "#D5C7A1"
-local gui06 = "#EBDBB2"
+local gui04 = "#bdae93"
+local gui05 = "#d5c7a1"
+local gui06 = "#ebdbb2"
 local gui07 = "#fbf1c7"
-local gui08 = "#D05000"
-local gui09 = "#FE8019"
-local gui0A = "#FFCC1B"
-local gui0B = "#B8BB26"
-local gui0C = "#8F3F71"
+local gui08 = "#d05000"
+local gui09 = "#fe8019"
+local gui0A = "#ffcc1b"
+local gui0B = "#b8bb26"
+local gui0C = "#8f3f71"
 local gui0D = "#458588"
-local gui0E = "#FABD2F"
-local gui0F = "#B59B4D"
+local gui0E = "#fabd2f"
+local gui0F = "#b59b4d"
 
 -- Base24 colors.
 local gui10 = "#282828"
 local gui11 = "#282828"
-local gui12 = "#D05000"
-local gui13 = "#FFCC1B"
-local gui14 = "#B8BB26"
-local gui15 = "#8F3F71"
+local gui12 = "#d05000"
+local gui13 = "#ffcc1b"
+local gui14 = "#b8bb26"
+local gui15 = "#8f3f71"
 local gui16 = "#458588"
-local gui17 = "#FABD2F"
+local gui17 = "#fabd2f"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -61,12 +61,12 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 9
-local cterm13  = 11
-local cterm14  = 10
-local cterm15  = 14
-local cterm16  = 12
-local cterm17  = 13
+local cterm12  = 1
+local cterm13  = 3
+local cterm14  = 2
+local cterm15  = 6
+local cterm16  = 4
+local cterm17  = 5
 
 vim.cmd [[
   highlight clear

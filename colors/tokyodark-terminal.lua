@@ -14,7 +14,7 @@
 
 -- Base16 colors.
 local gui00 = "#11121d"
-local gui01 = "#1A1B2A"
+local gui01 = "#1a1b2a"
 local gui02 = "#212234"
 local gui03 = "#282c34"
 local gui04 = "#4a5057"
@@ -61,12 +61,12 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 9
-local cterm13  = 11
-local cterm14  = 10
-local cterm15  = 14
-local cterm16  = 12
-local cterm17  = 13
+local cterm12  = 1
+local cterm13  = 3
+local cterm14  = 2
+local cterm15  = 6
+local cterm16  = 4
+local cterm17  = 5
 
 vim.cmd [[
   highlight clear

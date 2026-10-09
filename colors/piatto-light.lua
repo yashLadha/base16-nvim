@@ -36,7 +36,7 @@ local gui11 = "#151515"
 local gui12 = "#db3365"
 local gui13 = "#cd6f34"
 local gui14 = "#829429"
-local gui15 = "#175E5E"
+local gui15 = "#175e5e"
 local gui16 = "#3c5ea8"
 local gui17 = "#a454b2"
 

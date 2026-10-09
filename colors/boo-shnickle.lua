@@ -1,4 +1,4 @@
--- booshnickle dark scheme by Honey D (@honeydbeatz)
+-- boo-shnickle scheme by boo-shnickle (@boo_shnickle)
 --
 -- Generated from this template:
 --
@@ -26,7 +26,7 @@ local gui09 = "#ffdc99"
 local gui0A = "#fff299"
 local gui0B = "#e7ff99"
 local gui0C = "#bfffc5"
-local gui0D = "#ccbfd9"
+local gui0D = "#bfbfd9"
 local gui0E = "#f2bfd9"
 local gui0F = "#e5d6a6"
 
@@ -37,7 +37,7 @@ local gui12 = "#ffbfa5"
 local gui13 = "#fff299"
 local gui14 = "#e7ff99"
 local gui15 = "#bfffc5"
-local gui16 = "#ccbfd9"
+local gui16 = "#bfbfd9"
 local gui17 = "#f2bfd9"
 
 -- Base16 colors.
@@ -61,18 +61,18 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 9
-local cterm13  = 11
-local cterm14  = 10
-local cterm15  = 14
-local cterm16  = 12
-local cterm17  = 13
+local cterm12  = 1
+local cterm13  = 3
+local cterm14  = 2
+local cterm15  = 6
+local cterm16  = 4
+local cterm17  = 5
 
 vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "booshnickle-dark"
+vim.g.colors_name = "boo-shnickle"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

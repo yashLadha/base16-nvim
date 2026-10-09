@@ -1,4 +1,4 @@
--- Mocha scheme by Chris Kempson (https://github.com/chriskempson)
+-- Mocha scheme by Chris Kempson (http://chriskempson.com)
 --
 -- Generated from this template:
 --
@@ -13,7 +13,7 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#3B3228"
+local gui00 = "#3b3228"
 local gui01 = "#534636"
 local gui02 = "#645240"
 local gui03 = "#7e705a"
@@ -31,8 +31,8 @@ local gui0E = "#a89bb9"
 local gui0F = "#bb9584"
 
 -- Base24 colors.
-local gui10 = "#3B3228"
-local gui11 = "#3B3228"
+local gui10 = "#3b3228"
+local gui11 = "#3b3228"
 local gui12 = "#cb6077"
 local gui13 = "#f4bc87"
 local gui14 = "#beb55b"
@@ -61,12 +61,12 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 9
-local cterm13  = 11
-local cterm14  = 10
-local cterm15  = 14
-local cterm16  = 12
-local cterm17  = 13
+local cterm12  = 1
+local cterm13  = 3
+local cterm14  = 2
+local cterm15  = 6
+local cterm16  = 4
+local cterm17  = 5
 
 vim.cmd [[
   highlight clear

@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#0C0E16"
-local gui01 = "#181C2C"
-local gui02 = "#232A40"
-local gui03 = "#5A6178"
-local gui04 = "#939BB2"
-local gui05 = "#CBD4EC"
-local gui06 = "#D9E0F3"
-local gui07 = "#E6ECFA"
-local gui08 = "#E2727E"
-local gui09 = "#82A6E0"
-local gui0A = "#D8C062"
-local gui0B = "#7CC596"
-local gui0C = "#6DD8D0"
-local gui0D = "#7AA0E8"
-local gui0E = "#B79AE0"
-local gui0F = "#3A4260"
+local gui00 = "#0c0e16"
+local gui01 = "#181c2c"
+local gui02 = "#232a40"
+local gui03 = "#5a6178"
+local gui04 = "#939bb2"
+local gui05 = "#cbd4ec"
+local gui06 = "#d9e0f3"
+local gui07 = "#e6ecfa"
+local gui08 = "#e2727e"
+local gui09 = "#82a6e0"
+local gui0A = "#d8c062"
+local gui0B = "#7cc596"
+local gui0C = "#6dd8d0"
+local gui0D = "#7aa0e8"
+local gui0E = "#b79ae0"
+local gui0F = "#3a4260"
 
 -- Base24 colors.
-local gui10 = "#0C0E16"
-local gui11 = "#0C0E16"
-local gui12 = "#E2727E"
-local gui13 = "#D8C062"
-local gui14 = "#7CC596"
-local gui15 = "#6DD8D0"
-local gui16 = "#7AA0E8"
-local gui17 = "#B79AE0"
+local gui10 = "#0c0e16"
+local gui11 = "#0c0e16"
+local gui12 = "#e2727e"
+local gui13 = "#d8c062"
+local gui14 = "#7cc596"
+local gui15 = "#6dd8d0"
+local gui16 = "#7aa0e8"
+local gui17 = "#b79ae0"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -61,12 +61,12 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 9
-local cterm13  = 11
-local cterm14  = 10
-local cterm15  = 14
-local cterm16  = 12
-local cterm17  = 13
+local cterm12  = 1
+local cterm13  = 3
+local cterm14  = 2
+local cterm15  = 6
+local cterm16  = 4
+local cterm17  = 5
 
 vim.cmd [[
   highlight clear
