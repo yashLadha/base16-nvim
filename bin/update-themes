@@ -5,7 +5,8 @@
 #
 # Many schemes exist as both base16 and base24 under the same slug. Each
 # system is rendered into its own directory under build/, then base24 is
-# copied over base16 so the richer palette wins.
+# copied over base16 so the richer palette wins. Local schemes in schemes/
+# are rendered last so they are never lost to an upstream sync.
 
 set -euo pipefail
 
@@ -18,6 +19,10 @@ tinted-builder-rust build --quiet "$root"
 
 rm -f "$root"/colors/*.lua
 cp "$root"/build/base16/*.lua "$root/colors/"
+cp "$root"/build/base24/*.lua "$root/colors/"
+
+rm -rf "$root/build"
+tinted-builder-rust build --quiet --schemes-dir "$root/schemes" "$root"
 cp "$root"/build/base24/*.lua "$root/colors/"
 
 echo "Generated $(find "$root/colors" -name '*.lua' | wc -l | tr -d ' ') schemes in colors/"
